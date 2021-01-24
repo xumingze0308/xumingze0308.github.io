@@ -52,14 +52,14 @@ plink {
     font-size: 2.2em;
     font-weight: 600;
     font-family: Helvetica, arial, sans-serif;
-    margin-bottom: -6px;
+    margin-bottom: -2px;
 }
 
 #name h2 {
-    font-size: 1em;
+    font-size: 1.0em;
     font-weight: 400;
-    margin-left: 2px;
     font-family: Helvetica, arial, sans-serif;
+    margin-bottom: 2px;
 }
 
 #mainArea {
@@ -253,4 +253,3 @@ section:last-child {
 /*         margin-bottom: 4px;                            */
 /*     }                                                  */
 /* }                                                      */
-
