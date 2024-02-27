@@ -1,0 +1,45 @@
+a {
+  color: #0000E1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0000E1;
+  text-decoration: none;
+}
+
+p {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 16px
+}
+
+a {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 16px
+}
+
+as {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 11px
+}
+
+strong {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 22px;
+}
+
+heading {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 25px;
+}
+
+name {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 37px;
+}
+
+code {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 16px
+}
+
