@@ -25,6 +25,11 @@ p {
     word-spacing: .5px;
 }
 
+sup {
+    font-size: 0.70em;
+    vertical-align:super;
+}
+
 plink {
     font-size: 0.9em;
     line-height: 1.5em;
@@ -52,19 +57,19 @@ plink {
     font-size: 2.2em;
     font-weight: 600;
     font-family: Helvetica, arial, sans-serif;
-    margin-bottom: -6px;
+    margin-bottom: -2px;
 }
 
 #name h2 {
-    font-size: 1em;
+    font-size: 1.0em;
     font-weight: 400;
-    margin-left: 2px;
     font-family: Helvetica, arial, sans-serif;
+    margin-bottom: 2px;
 }
 
 #mainArea {
     padding: 0px 35px;
-    text-align: justify;
+    /* text-align: justify; */
     margin-left: 15px;
     margin-right: 15px;
     margin-top: -5px;
@@ -86,22 +91,22 @@ plink {
 }
 
 a:link {
-    color: #CC6600;
+    color: #0000E1;
     text-decoration: none;
 }
 
 a:visited {
-    color: #CC6600;
+    color: #0000E1;
     text-decoration: none;
 }
 
 a:hover {
-    color: #CC6600;
+    color: #0000E1;
     text-decoration: none;
 }
 
 a:active {
-    color: #CC6600;
+    color: #0000E1;
     text-decoration: none;
 }
 
@@ -121,7 +126,7 @@ a:active {
     color: #222;
 }
 
-#contactDetails ul li a:visited {color: #CC6600} {
+#contactDetails ul li a:visited {color: #0000E1} {
     color: #222; 
     text-decoration: none;
     -webkit-transition: all .3s ease-in;
@@ -131,7 +136,7 @@ a:active {
     transition: all .3s ease-in;
 }
 
-#contactDetails ul li a:hover{color: #CC6600} { 
+#contactDetails ul li a:hover{color: #0000E1} { 
     color: #DCDCDC;
 }
 
@@ -153,6 +158,14 @@ section:last-child {
     width: 15%;
 }
 
+.sectionTitle h1 {
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #222;
+    /* letter-spacing:0.1px; */
+}
+
 .sectionContent {
     float: right;
     width: 73%;
@@ -160,18 +173,19 @@ section:last-child {
     /* letter-spacing:0.1px; */
 }
 
-.sectionContent2 {
-    float: right;
-    width: 68%;
+.sectionContent h1 {
+    float: left;
+    width: 73%;
+    font-size: 1.15em;
     margin-right: 0px;
+    margin-left: -1em;
     /* letter-spacing:0.1px; */
 }
 
-.sectionTitle h1 {
-    font-family: Helvetica, arial, sans-serif;
-    font-size: 1.2em;
-    font-weight: 600;
-    color: #222;
+.sectionList {
+    float: right;
+    width: 68%;
+    margin-right: 0px;
     /* letter-spacing:0.1px; */
 }
 
@@ -212,7 +226,7 @@ section:last-child {
 /*         text-align: center;                            */
 /*     }                                                  */
 /*                                                        */
-/*     .sectionTitle, .sectionContent, .sectionContent2 { */
+/*     .sectionTitle, .sectionContent, .sectionList { */
 /*         float: none;                                   */
 /*         width: 100%;                                   */
 /*     }                                                  */
@@ -253,4 +267,3 @@ section:last-child {
 /*         margin-bottom: 4px;                            */
 /*     }                                                  */
 /* }                                                      */
-
